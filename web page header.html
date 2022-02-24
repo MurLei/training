@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid web</title>
+     <meta charset="UTF-8">
+     <meta name="viewport"
+     content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <script defer src="https://kit.fontawesome.com/8879edb3fb.js" crossorigin="anonymous">
+    </script>
+    </head>
+    <style>
+        body{
+            background-color: rgb(253, 252, 252); font-family: 'montserrat', sans-serif;
+        }
+        .murali{
+            color: #333;
+            text-align: center;
+            margin-top: 3%;
+            
+        }
+        .first {
+            color: rgb(97, 95, 95);
+            text-align: center;
+        }
+        .btn{
+            background-color: #333;
+            color:white;
+            padding: 0.6rem 1.3rem;
+            text-decoration: none;
+            border: 0;
+        }
+        .father{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 100%;
+            height: 100%;
+            margin: 10px;
+            border: 10px rgb(253, 252, 252);
+            border-radius: 4px;
+        }
+
+        .webdesign{
+            float: left;
+            width: 300px;
+            height: 175px;
+            background-color:rgb(253, 252, 252) ;
+            margin-left: 5%;
+            font-size:default;
+            color: #333;
+            text-align:center;
+            display: grid;
+            vertical-align:middle;
+        }
+
+        .idbranding{
+            float: left;
+            width: 300px;
+            height: 175px;
+            background-color:rgb(253, 252, 252) ;
+            margin-left: 0%;
+            font-size:default;
+            color: #333;
+            text-align:center;
+            display: grid;
+            vertical-align:middle;
+        }
+
+        .printpackaging{
+            float: left;
+            width: 300px;
+            height: 175px;
+            background-color:rgb(253, 252, 252) ;
+            margin-left: 0%;
+            font-size:default;
+            color: #333;
+            text-align:center;
+            display: grid;
+            vertical-align:middle;
+        }
+
+        .contentwriting{
+            float: left;
+            width: 300px;
+            height: 175px;
+            background-color:rgb(253, 252, 252) ;
+            margin-right:5%;
+            font-size:default;
+            color: #333;
+            text-align:center;
+            display: grid;
+            vertical-align:middle;
+        }
+        .bottom-container{
+            display: grid;
+            grid-gap:20px;
+            grid-template-areas:
+            'showcase showcase pone ptwo pthree'
+            'showcase showcase pfour pfive psix' ;
+        }
+        .showcase{
+            grid-area: showcase;
+            max-width: 55%;
+            margin-left: 50px;
+            line-height: 1.4;
+        }
+        .showcase h2{
+            font-size: default;
+            margin-bottom: 0;
+        }
+        .pone{
+            font-size: 1.8rem;
+            color: #333;
+            background-color: solid #333;
+            border-width: 5px;
+            border-color: blue;
+            margin-right: 25px;
+            grid-gap:5px;
+        }
+        .ptwo{
+            font-size: 1.8rem;
+            color: #333;
+            margin-right: 25px;
+            grid-gap:5px;
+        }
+        .pthree{
+            font-size: 1.8rem;
+            color: #333;
+            margin-right: 25px;
+            grid-gap:5px;
+
+        }
+        .pfour{
+            font-size: 1.8rem;
+            color: #333;
+            margin-right: 25px;
+            grid-gap:5px;
+
+        }
+        .pfive{
+            font-size: 1.8rem;
+            color: #333;
+            margin-right: 25px;
+            grid-gap:5px;
+
+        }
+        .psix{
+            font-size: 1.8rem;
+            color: #333;
+            margin-right: 25px;
+            grid-gap:5px;
+
+        }
+
+        
+    </style>
+    <body>
+        <h2 class="murali">We provide great services</h2>
+        <p class="first" >Lorem ipsom dollor sit amet donec eu libero sit amet quam <br> pallentesque voluptat, nam dui mi</p> <br>
+        
+    </body>
+    <div class="father">
+        <div class="webdesign"> <i class="fa-solid fa-pen fa-3x"></i> <h3>Web design</h3> <p>Vestibulum erat wisi, condimentum <br>commodo vitae, sit ame </p> </div>
+        <div class="idbranding"> <i class="fa-solid fa-scale-unbalanced-flip fa-3x"></i> <h3>Identity & Branding</h3> <p>Odio nisi, euismod in, pharetra a, <br>ultricies in, diam. Sed arcu </p> </div>
+        <div class="printpackaging"> <i class="fa-solid fa-print fa-3x"></i> <h3>Print & packaging</h3> <p>Aliquam erat volutpat. Nam dui mi, <br>tinicidunt quis, accumsan porttito </p> </div>
+        <div class="contentwriting"> <i class="fa-solid fa-pen-nib fa-3x"></i> <h3>Content writing</h3> <p>Aliquam erat volutpat. Nam dui mi, <br>tinicidunt quis, accumsan porttito</p> </div>
+    </div>
+    
+        
+            <section class="bottom-container">
+            <header class="showcase">
+                <h2>Johnatan Doe</h2>
+                <p>Marketing specialist <br><br>Lorem ipsom dollor sit amet donec eu libero sit amet quam egestas semper, aenean ultricies duis, praesent dapibus, neque id cursus <br> fausibus, tortor neque egestas augue, eu voluptat magna eros eu. <br>
+                <br>
+                <br>
+                 Aliquam erat voluptat. Nam dui mi, tinicidunt quis, accums <br> porttitor, facilisis luctus, metus phasellus ultricies null.
+                 </p>
+                 <a href="#" class="btn">Read More.. </a>
+                </header>
+                <div class="pone" > <br> <i class="fa-solid fa-user-tie fa-4x"></i></div>
+                <div class="ptwo">   <br> <i class="fa-solid fa-user-tie fa-4x"></i></div>
+                <div class="pthree"> <br> <i class="fa-solid fa-user-tie fa-4x"></i></div>
+                <div class="pfour"><br> <i class="fa-solid fa-user-tie fa-4x"></i></div>
+                <div class="pfive"><br> <i class="fa-solid fa-user-tie fa-4x"></i></div>
+                <div class="psix"><br> <i class="fa-solid fa-user-tie fa-4x"></i></div>
+            </section>
+    </div>
+</html>   
